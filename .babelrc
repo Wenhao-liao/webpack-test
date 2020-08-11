@@ -1,0 +1,18 @@
+// 因为后续配置会使得这部分文件更复杂，因此把options单独拿出来，这边写了这样一个文件，webpack会自动找到这个文件去处理
+
+{
+    "presets": ["react", "es2015"],
+    // "env": {
+    //   "development": {
+    //   "plugins": [["react-transform", {
+    //      "transforms": [{
+    //        "transform": "react-transform-hmr",
+           
+    //        "imports": ["react"],
+           
+    //        "locals": ["module"]
+    //      }]
+    //    }]]
+    //   }
+    // }
+  }
